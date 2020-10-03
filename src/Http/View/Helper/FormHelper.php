@@ -41,6 +41,7 @@ class FormHelper extends Helper
     protected $defaultConfig = [
         'format' => true, // Formats date,datetime,time, and numbers. Works with delocalize
         'controlDefaults' => [
+            // could add : 'email, hidden, tel, url ....
             'text' => ['div' => 'form-group', 'class' => 'form-control'],
             'textarea' => ['div' => 'form-group', 'class' => 'form-control'],
             'password' => ['div' => 'form-group', 'class' => 'form-control'],
